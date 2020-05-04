@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        List<Relation> relations = new ArrayList<Relation>();
+        List<Relation> relations = new ArrayList<>();
         relations.add(new Relation("A", "B", 2));
         relations.add(new Relation("A", "G", 10));
         relations.add(new Relation("B", "D", 2));
@@ -37,7 +37,7 @@ public class Main {
         relations.add(new Relation("L", "O", 1));
         relations.add(new Relation("M", "O", 2));
 
-        var search = new SearchList("B", "M", relations, true);
+        var search = new SearchList("A", "M", relations, true);
 
         var total = 0;
 
